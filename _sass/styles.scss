@@ -1,16 +1,12 @@
 @import "helpers/colors";
 @import "helpers/buttons";
-@import "components/leaflet";
 @import "layout/footer";
 @import "layout/header";
 @import "layout/home";
 @import "layout/article";
 @import "layout/tags";
 @import "layout/a_propos";
-@import "layout/map";
-@import "components/box";
 @import "components/pagination";
-@import "components/phares";
 
 
 @font-face {
@@ -22,7 +18,7 @@
 
 body {
     font-family: "OpenSans", sans-serif;
-    background-color: white;
+    background-color: #4f4d4d;
     min-height: 100vh;
     margin: 0;
     display: flex;

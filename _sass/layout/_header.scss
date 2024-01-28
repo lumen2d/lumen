@@ -1,5 +1,9 @@
 @import "helpers/colors";
 
+.navbar {
+    background-color: #4f4d4d !important;
+}
+
 .preheader {
     background-color: $primary-color;
     color: white;
@@ -36,7 +40,7 @@
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
     font-weight: normal;
-    color: $primary-color;
+    color: white;
 }
 
 .dropdown-menu {
