@@ -1,0 +1,79 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
+hidden: true
+group: "navigation"
+title: "Accueil"
+order: 1
+pagination:
+enabled: true
+collection: all
+sort_field: 'title'
+sort_reverse: false
+---
+
+<div class="row home-entete">
+  <div class="col-md-7 d-flex justify-content-end align-items-center"><img
+      src="{{ site.baseurl }}/assets/images/base/entete.png" alt="" /></div>
+  <div class="col d-flex align-items-center">
+    <p class="fs-1 fw-bold is-text-primary text-center text-uppercase p-1">Bienvenue<br />sur la
+      <span class="underline">plateforme</span>
+      libre<br /> des
+      initiatives
+      <span class="underline">engagées</span>
+    </p>
+  </div>
+
+</div>
+
+<div class="text-center mt-2">
+  <a class="btn btn-primary text-uppercase" href="{{ site.baseurl }}/a_propos">qui sommes-nous ?</a>
+</div>
+
+<div class="row actions justify-content-md-center mt-4 mt-4">
+  <div class="col-md-4">
+    <img src="{{ site.baseurl }}/assets/images/base/map.png" class="img-fluid" alt="" />
+  </div>
+  <div class="col-md-4 d-flex flex-column justify-content-center align-items-center text-uppercase text-white">
+    <h2 class="fs-3 fw-light">carte intéractive</h2>
+    <hr class="actions--separator" />
+    <p class="text-center fs-1 fw-bold">toutes<br /> les initiatives<br /> "près de chez-vous"
+    </p>
+    <a class="btn btn-light text-uppercase mb-3" href="{{ site.baseurl }}/carte_interactive">parcourir</a>
+  </div>
+</div>
+
+<div class="mx-4 mt-4">
+  <h2 class="fs-1 is-text-primary text-uppercase text-center fw-bold">Les <span class="underline">dernières
+      initiatives</span></h2>
+
+  <div id="initiatives" class="row mt-3"></div>
+
+</div>
+
+<div class="text-center mt-3">
+  <a class="btn btn-primary text-uppercase" href="{{ site.baseurl }}/carte_interactive">Tout voir &rsaquo;</a>
+</div>
+
+<div class="row actions justify-content-md-center mt-4 mb-0">
+  <div class="col-md-4 d-flex justify-content-center">
+    <img src="{{ site.baseurl }}/assets/images/base/participation.png" class="img-fluid" alt="" />
+  </div>
+  <div class="col-md-4 d-flex flex-column justify-content-center align-items-center text-white">
+    <h2 class="fs-3 fw-light text-uppercase">appel à participation</h2>
+    <hr class="actions--separator" />
+    <p class="text-center fs-1 fw-bold text-uppercase">comment <span class="underline">contribuer</span><br /> au projet
+      ?
+    </p>
+    <p class="text-center fw-light mt-2 w-75">C’est simple, il vous suffit de nous partager une initiative par mail
+      ou de
+      créer le contenu directement sur GitHub, et hop, c’est fait !
+      <br /><br />
+      L’essence du projet consiste en la création d’une plateforme participative alors n’hésitez surtout pas à
+      nous solliciter.
+    </p>
+    <a class="btn btn-light text-uppercase mb-3 mt-3" href="{{ site.baseurl }}/a_propos#decouvrir">découvrir</a>
+  </div>
+</div>

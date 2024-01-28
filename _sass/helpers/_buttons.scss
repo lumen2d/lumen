@@ -1,0 +1,36 @@
+@import "helpers/colors";
+
+.btn {
+    border-radius: 0;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-primary {
+    background-color: $primary-color;
+
+    &:hover {
+        color: white;
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+.btn-light {
+    background-color: white;
+    color: #5c5959;
+
+    &:hover {
+        background-color: darken(white, 5%);
+        color: #5c5959;
+    }
+}
+
+.btn-grey {
+    background-color: #c2c1c1;
+    color: white;
+
+    &:hover {
+        background-color: darken(#c2c1c1, 5%);
+        color: white;
+    }
+}

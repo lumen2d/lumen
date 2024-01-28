@@ -1,0 +1,13 @@
+@import "helpers/colors";
+
+.tagbox {
+    border: 1px solid $primary-color;
+    padding: 25px;
+    height: 100%;
+
+    & img {
+        width: 100%;
+        height: 135px;
+        object-fit: cover;
+    }
+}

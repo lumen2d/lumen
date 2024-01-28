@@ -1,0 +1,44 @@
+@import "helpers/colors";
+
+.preheader {
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    height: 35px;
+
+    p {
+        margin: 0;
+    }
+}
+
+.navbar__icons a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.navbar__icons svg {
+    fill: $primary-color;
+
+    &:hover {
+        fill: darken($primary-color, 10%);
+    }
+}
+
+.nav-link {
+    font-weight: lighter;
+
+    &:hover {
+        color: $primary-color;
+    }
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    font-weight: normal;
+    color: $primary-color;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+}

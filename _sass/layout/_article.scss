@@ -1,0 +1,37 @@
+@import "helpers/colors";
+
+.article {
+    margin-top: 26px;
+    font-weight: lighter;
+
+    h2 {
+        color: $primary-color;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        margin-top: 1.5rem;
+    }
+
+    h3 {
+        color: $primary-color;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        margin-top: 1.25rem;
+    }
+}
+
+.article-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.article-hr {
+    color: $primary-color;
+}
+
+.article-description {
+    text-align: justify;
+    text-justify: inter-word;
+}

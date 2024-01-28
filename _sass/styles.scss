@@ -1,0 +1,100 @@
+@import "helpers/colors";
+@import "helpers/buttons";
+@import "components/leaflet";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/home";
+@import "layout/article";
+@import "layout/tags";
+@import "layout/a_propos";
+@import "layout/map";
+@import "components/box";
+@import "components/pagination";
+@import "components/phares";
+
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("/assets/fonts/OpenSans.ttf") format('truetype');
+    font-style: normal;
+    font-weight: lighter;
+}
+
+body {
+    font-family: "OpenSans", sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: $text-color;
+}
+
+svg:hover {
+    fill: $primary-color;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.button {
+    font-weight: bold !important;
+    border-radius: 0% !important;
+    font-family: "OpenSans", sans-serif !important;
+    border: none !important;
+}
+
+.underline {
+    padding: 30px 0 8px;
+    position: relative;
+    z-index: 1;
+}
+
+.underline::before {
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: 15px;
+    width: 102%;
+    height: 18px;
+    transform: skew(-12deg) translateX(-1%);
+    background: darken(#f2f2f2, 10%);
+    z-index: -1;
+}
+
+.active,
+nav .nav-link.show {
+    font-weight: 100 !important;
+}
+
+@media (max-width: 576px) {
+    .home-entete {
+        img {
+            width: 100%;
+        }
+
+        .d-flex {
+            justify-content: center !important;
+        }
+    }
+
+    ul.dropdown-menu.show {
+        border: none !important;
+        margin-left: 2rem;
+    }
+}
+
+.center-to-justify {
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .center-to-justify {
+        text-align: center;
+    }
+}
+
+.text-justify {
+    text-align: justify;
+}

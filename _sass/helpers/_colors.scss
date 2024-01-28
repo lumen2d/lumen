@@ -1,0 +1,24 @@
+$primary-color: #42A1BF;
+$secondary-dark-color: #4a4a4a;
+$secondary-light-color: #a5a0a0;
+$text-color: #5c5959;
+$background-color: #fcfaf8;
+$link-color: darken(#a2a2a2, 35%);
+$light-grey: #d0cdcd;
+$dark-grey: #5c5959;
+
+.is-text-primary {
+    color: $primary-color;
+}
+
+.is-background-primary {
+    background-color: $primary-color;
+}
+
+.is-background-light-grey {
+    background-color: $light-grey;
+}
+
+.is-background-dark-grey {
+    background-color: $dark-grey;
+}

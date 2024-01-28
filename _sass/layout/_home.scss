@@ -1,0 +1,76 @@
+@import "helpers/colors";
+
+.jumbotron {
+    position: relative;
+
+    img {
+        max-height: 600px;
+        object-fit: contain;
+    }
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: $primary-color;
+}
+
+.actions {
+    background-color: $primary-color;
+}
+
+.actions--separator {
+    width: 20%;
+    height: 1px;
+    background-color: white;
+}
+
+.journal,
+.initiatives {
+    border: 1px solid $primary-color;
+    margin: 3%;
+    padding: 15px;
+    height: 92%;
+
+    & img {
+        max-height: 250px;
+        object-fit: cover;
+    }
+}
+
+.categories {
+    background-color: $primary-color;
+}
+
+.home__contact {
+    background-color: $primary-color;
+}
+
+.is-box-round {
+    height: 150px !important;
+    width: 150px !important;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.is-box-primary {
+    height: 450px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-article-img {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .home-article-img {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+}
