@@ -17,18 +17,13 @@
         color: white !important;
     }
 
-    .nuages {
-        width: 100%;
+    & svg:hover {
+        fill: darken(white, 10%);
     }
 
-    .enveloppe {
-        width: 70%;
-    }
+    text-align: end;
+}
 
-    .follow_us {
-        color: white;
-        width: 30%;
-        position: relative;
-        top: -25px;
-    }
+.gamepad {
+    width: 30%;
 }
