@@ -1,10 +1,10 @@
 ---
 layout: tags
-title: Alternatives
+title: Lieux
 hidden: false
 pagination: 
   enabled: true
   collection: all
-  tag: alternatives
+  tag: lieux
   permalink: /:num/
 ---

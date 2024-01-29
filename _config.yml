@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Shows how the jekyll-paginate-v2 gem can be used to paginate on tags and categories together.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  maitre-chat
+github_username:  lumen2d
 
 # Build settings
 markdown: kramdown
@@ -32,33 +32,18 @@ exclude:
 
 # Collection configurations
 collections:
-  alternatives:
+  equipements:
     output: true
-    permalink: /alternatives/:path/
-  art:
+    permalink: /equipements/:path/
+  classes:
     output: true
-    permalink: /art/:path/
-  ecologie: 
+    permalink: /classes/:path/
+  ennemis: 
     output: true
-    permalink: /ecologie/:path/
-  evenements: 
+    permalink: /ennemis/:path/
+  lieux: 
     output: true
-    permalink: /evenements/:path/
-  journal:
-    output: true
-    permalink: /journal/:path/
-  ludique:
-    output: true
-    permalink: /ludique/:path/
-  medias:
-    output: true
-    permalink: /medias/:path/
-  numerique:
-    output: true
-    permalink: /numerique/:path/
-  social:
-    output: true
-    permalink: /social/:path/
+    permalink: /lieux/:path/
   
 # This site uses the pretty permalink structure, this renders all urls with a slash / at the end and 
 # no file endings, I guess that is considered pretty :)

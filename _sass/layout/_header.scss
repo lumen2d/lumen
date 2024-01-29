@@ -22,15 +22,15 @@
 }
 
 .navbar__icons svg {
-    fill: $primary-color;
+    fill: $text-color;
 
     &:hover {
-        fill: darken($primary-color, 10%);
+        fill: darken($text-color, 10%);
     }
 }
 
 .nav-link {
-    font-weight: lighter;
+    color: white;
 
     &:hover {
         color: $primary-color;
@@ -44,5 +44,7 @@
 }
 
 .dropdown-menu {
+    color: white;
     border-radius: 0;
+    background: $primary-color;
 }
