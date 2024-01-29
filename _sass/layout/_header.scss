@@ -4,17 +4,6 @@
     background-color: #4f4d4d !important;
 }
 
-.preheader {
-    background-color: $primary-color;
-    color: white;
-    text-align: center;
-    height: 35px;
-
-    p {
-        margin: 0;
-    }
-}
-
 .navbar__icons a {
     margin-left: 10px;
     margin-right: 10px;
@@ -39,7 +28,6 @@
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-    font-weight: normal;
     color: white;
 }
 
@@ -47,4 +35,14 @@
     color: white;
     border-radius: 0;
     background: $primary-color;
+}
+
+.header-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath fill='%23ffffff' d='M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
 }

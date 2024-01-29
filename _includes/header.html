@@ -1,10 +1,8 @@
-<div class="preheader d-flex justify-content-center align-items-center fw-light">
-    <p>Lumen | Une plateforme pour le JDR</p>
-</div>
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/images/base/logo.png"
-                class="" style="width: 100px;" alt="" /></a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/"><img
+                src="{{ site.baseurl }}/assets/images/base/feather-solid.svg" class=""
+                style="width: 70px; height: 70px;" alt="" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,13 +41,37 @@
                         href="{{ site.baseurl }}/tags/lieux/index.html">Lieux</a>
                 </li>
                 {% endif %}
-                {% if page.url == '/a_propos' %}
-                <li class="nav-item"><a class="nav-link active text-uppercase" href="{{ site.baseurl }}/a_propos">A
-                        propos</a></li>
+                {% if page.url == '/tresors' %}
+                <li class="nav-item"><a class="nav-link active text-uppercase"
+                        href="{{ site.baseurl }}/tresors">Trésors</a></li>
                 {% else %}
-                <li class="nav-item"><a class="nav-link text-uppercase" href="{{ site.baseurl }}/a_propos">A propos</a>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="{{ site.baseurl }}/tresors">Trésors</a>
                 </li>
                 {% endif %}
+                {% if page.url == '/lancer_des' %}
+                <li class="nav-item"><a class="nav-link active text-uppercase"
+                        href="{{ site.baseurl }}/lancer_des">Lancer les dés</a></li>
+                {% else %}
+                <li class="nav-item"><a class="nav-link text-uppercase" href="{{ site.baseurl }}/lancer_des">Lancer les
+                        dés</a>
+                </li>
+                {% endif %}
+                {% if page.url == '/a_propos' %}
+                <li class="nav-item"><a class="nav-link active text-uppercase" href="{{ site.baseurl }}/a_propos">À
+                        propos</a></li>
+                {% else %}
+                <li class="nav-item"><a class="nav-link text-uppercase" href="{{ site.baseurl }}/a_propos">À propos</a>
+                </li>
+                {% endif %}
+                {% if page.url == '/telechargements' %}
+                <li class="nav-item"><a class="nav-link active text-uppercase"
+                        href="{{ site.baseurl }}/telechargements">Téléchargements</a></li>
+                {% else %}
+                <li class="nav-item"><a class="nav-link text-uppercase"
+                        href="{{ site.baseurl }}/telechargements">Téléchargements</a>
+                </li>
+                {% endif %}
+
             </ul>
             <div class="d-flex navbar__icons">
                 <a href="https://piaille.fr/@lumen" target="_blank">
