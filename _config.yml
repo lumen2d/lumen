@@ -38,9 +38,9 @@ collections:
   classes:
     output: true
     permalink: /classes/:path/
-  ennemis: 
+  antagonistes: 
     output: true
-    permalink: /ennemis/:path/
+    permalink: /antagonistes/:path/
   lieux: 
     output: true
     permalink: /lieux/:path/

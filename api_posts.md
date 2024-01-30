@@ -16,11 +16,9 @@ pagination:
     {
       "title": "{{ post.title }}",
       "link": "{{ post.url }}",
-      "img": "{{ post.img }}",
+      "tags": "{{ post.tags }}",
       "description": "{{ post.description }}",
-      "departement": "{{ post.departement }}",
-      "code_postal": "{{ post.code_postal }}",
-      "web" : "{{ post.web }}"
+      "univers": "{{ post.univers }}"
     }{% endfor %}
   ]
 }

@@ -1,10 +1,10 @@
 ---
 layout: tags
-title: Ennemis
+title: Antagonistes
 hidden: false
 pagination: 
   enabled: true
   collection: all
-  tag: ennemis
+  tag: antagonistes
   permalink: /:num/
 ---
