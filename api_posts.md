@@ -18,7 +18,8 @@ pagination:
       "link": "{{ post.url }}",
       "tags": "{{ post.tags }}",
       "description": "{{ post.description }}",
-      "univers": "{{ post.univers }}"
+      "univers": "{{ post.univers }}",
+      "date": "{{post.date}}"
     }{% endfor %}
   ]
 }
