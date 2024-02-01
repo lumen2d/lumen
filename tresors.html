@@ -14,7 +14,7 @@ sort_field: 'title'
 sort_reverse: false
 ---
 
-<div class="container">
+<div class="container px-4 mb-4">
     <h1 class="text-uppercase fw-bold mt-4 fs-1 text-center">Coffre au trésor</h1>
 
     <p class="mt-4 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique vulputate
@@ -23,6 +23,28 @@ sort_reverse: false
         bibendum urna nisl eu mauris. Sed vestibulum leo eget nunc convallis iaculis. Nullam congue mauris vel
         sollicitudin cursus. Praesent tincidunt augue erat, at interdum ligula varius eget. Nulla a elit in mi dignissim
         finibus mattis ac leo.</p>
+
+    <form class="">
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-12">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text" style="border-radius: 0;"><img
+                                src="{{ site.baseurl }}/assets/images/base/table-list-solid.svg" class=""
+                                style="width: 35px; height: 35px;" alt="" />
+                        </div>
+                    </div>
+                    <input type="text" class="form-control form-control-sm" id="inlineFormInputGroup"
+                        placeholder="Nombre de récompenses" style="border-radius: 0;">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-12 d-flex justify-content-center">
+                <button type="submit" class="btn btn-light mb-2">Ouvrir le coffre</button>
+            </div>
+        </div>
+    </form>
 </div>
 
 <div class="container is-background-primary">

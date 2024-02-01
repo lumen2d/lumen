@@ -22,3 +22,8 @@ $dark-grey: #5c5959;
 .is-background-dark-grey {
     background-color: $dark-grey;
 }
+
+.form-control:focus {
+    border: none;
+    box-shadow: none;
+}
